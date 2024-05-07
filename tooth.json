@@ -1,25 +1,25 @@
 {
     "format_version": 2,
-    "tooth": "my-plugin",
-    "version": "0.0.0",
+    "tooth": "github.com/SourceLandDev/PureLevel",
+    "version": "1.0.0",
     "info": {
-        "name": "My Plugin Name",
-        "description": "My Plugin Description",
-        "author": "My Name",
+        "name": "PureLevel",
+        "description": "Clean your level",
+        "author": "SourceLand Developers",
         "tags": [
             "levilamina",
             "plugin"
         ]
     },
-    "asset_url": "My Asset Url",
+    "asset_url": "https://github.com/SourceLandDev/PureLevel/releases/download/v1.0.0/PureLevel-windows-x64.zip",
     "prerequisites": {
-        "github.com/LiteLDev/LeviLamina": "My LeviLamina Dependency Version"
+        "github.com/LiteLDev/LeviLamina": "0.12.x"
     },
     "files": {
         "place": [
             {
-                "src": "my-plugin/*",
-                "dest": "plugins/my-plugin/"
+                "src": "PureLevel/*",
+                "dest": "plugins/PureLevel"
             }
         ]
     }
